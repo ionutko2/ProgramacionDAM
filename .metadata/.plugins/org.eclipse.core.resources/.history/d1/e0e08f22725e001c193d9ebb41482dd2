@@ -1,4 +1,4 @@
-/** Programa que a partir de dos numero realiza la potencia Hola xD*/
+/** Programa que a partir de dos numero realiza la potencia */
 import java.util.Scanner;
 public class Potencia {
 	public static void main (String [] args) {
