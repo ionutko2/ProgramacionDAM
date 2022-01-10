@@ -13,7 +13,7 @@ static boolean esPrimo(int numero) {
 			contadorprim++;
 		}
 	}
-	if(contadorprim<=2) {
+	if(contadorprim<=1) {
 		primo=true;
 	}else primo=false;
 	
