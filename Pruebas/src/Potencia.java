@@ -5,7 +5,7 @@ public class Potencia {
 		Scanner teclado = new Scanner(System.in);
 		int numero;
 		int potencia;
-		int resultado = 0;
+		double resultado = 0;
 		
 		//Leer número y potencia
 		System.out.println("Introduzca el número a elevar");
@@ -15,11 +15,14 @@ public class Potencia {
 		
 		// Realizar la potencia
 		for (int i = 1; i < potencia; i++) {
+			
 			if (i == 1) {
 				resultado = numero * numero;
 			}else {
 				resultado = numero * resultado;
 			}
+			
+			
 		}
 		System.out.println(resultado);
 	}
