@@ -1,5 +1,7 @@
 /**
  Método para hacer el factorial de un número 
+ @params numero que queremos relizarle el factorial
+ @return resultado del factorial
  */
 import java.util.Scanner;
 class factorial {
