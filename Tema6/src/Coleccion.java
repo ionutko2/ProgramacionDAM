@@ -23,20 +23,25 @@ public class Coleccion {
 			coleccionDiscos[i] = disco;
 			System.out.println("Escriba el título del disco");
 			coleccionDiscos[i].setTitulo(teclado.nextLine());
-			System.out.println("Escriba el numero de candiones del disco");
+			System.out.println("Escriba el numero de canciones del disco");
 			coleccionDiscos[i].setNumeroCanciones(teclado.nextInt());
 			System.out.println("Escriba el precio del disco");
 			coleccionDiscos[i].setPrecio(teclado.nextInt());
 			System.out.println("Escriba la fecha de compra del disco");
+			teclado.nextLine();
 			coleccionDiscos[i].setFechaCompra(teclado.nextLine());
-			/**
 			System.out.println("¿Quiere seguir aumentando su colección?(S/N)");
 			pregunta = teclado.nextLine();
 			if(pregunta.equalsIgnoreCase("S")) {
 				si = false;
 			}else {
 				si = true;
-			}*/
+			}
+		}
+		for (int j = 0; j < coleccionDiscos.length; j++) {
+			System.out.println("Índice: " + (j + 1) + " Título: " + coleccionDiscos[j].getTitulo() + 
+					" Número de canciones: " + coleccionDiscos[j].getNumeroCanciones() +  
+					" Precio: " + coleccionDiscos[j].getPrecio() +" Fecha de compra: " + coleccionDiscos[j].getFechaCompra());
 		}
 
 	}
