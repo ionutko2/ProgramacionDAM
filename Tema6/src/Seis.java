@@ -8,12 +8,13 @@ public class Seis {
 		int contador = 0;
 		String pregunta = "";
 		boolean si = false;
+		NombreAleatorio [] nombreAleatorio = new NombreAleatorio[50];
 		
 		for (int i = 0;si != true && i < numeroTrabajadores.length; i++) {
+			nombreAleatorio[i] = new NombreAleatorio();
 			numeroTrabajadores[i] = new Trabajador();
 			numeroTrabajadores[i].modificar(i + 1);
-			System.out.println("Escriba su nombre");
-			numeroTrabajadores[i].setNombre(teclado.nextLine());
+			numeroTrabajadores[i].setNombre(nombreAleatorio[i].getNombreCompleto());
 			System.out.println("Indique su estado civil (S/C)");
 			numeroTrabajadores[i].setEstadoCivil(teclado.next().charAt(0));
 			System.out.println("Indique el turno que realiza (D/N)");
