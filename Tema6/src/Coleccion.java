@@ -14,13 +14,12 @@ public class Coleccion {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		Disco [] coleccionDiscos = new Disco[100];
-		Disco disco = new Disco();
-		
+		int contador = 0;
 		String pregunta = "";
 		boolean si = false;
 		
 		for (int i = 0;si != true && i < coleccionDiscos.length; i++) {
-			coleccionDiscos[i] = disco;
+			coleccionDiscos[i] = new Disco();
 			System.out.println("Escriba el título del disco");
 			coleccionDiscos[i].setTitulo(teclado.nextLine());
 			System.out.println("Escriba el numero de canciones del disco");
@@ -30,18 +29,22 @@ public class Coleccion {
 			System.out.println("Escriba la fecha de compra del disco");
 			teclado.nextLine();
 			coleccionDiscos[i].setFechaCompra(teclado.nextLine());
-			System.out.println("¿Quiere seguir aumentando su colección?(S/N)");
-			pregunta = teclado.nextLine();
-			if(pregunta.equalsIgnoreCase("S")) {
-				si = false;
-			}else {
-				si = true;
-			}
+			do {
+				System.out.println("¿Quiere seguir aumentando su colección?(S/N)");
+				pregunta = teclado.nextLine();
+				if(pregunta.equalsIgnoreCase("S")) {
+					si = false;
+					contador++;
+				}else {
+					si = true;
+				}
+			}while(pregunta.equalsIgnoreCase("S") == false && pregunta.equalsIgnoreCase("N") == false);
 		}
-		for (int j = 0; j < coleccionDiscos.length; j++) {
-			System.out.println("Índice: " + (j + 1) + " Título: " + coleccionDiscos[j].getTitulo() + 
-					" Número de canciones: " + coleccionDiscos[j].getNumeroCanciones() +  
-					" Precio: " + coleccionDiscos[j].getPrecio() +" Fecha de compra: " + coleccionDiscos[j].getFechaCompra());
+		for (int i = 0; i < coleccionDiscos.length && i <= contador; i++) {
+			System.out.println("Índice: " + (i + 1)+ "\n" + "Título: " + coleccionDiscos[i].getTitulo() + "\n" +
+					"Número de canciones: " + coleccionDiscos[i].getNumeroCanciones() + "\n" +
+					"Precio: " + coleccionDiscos[i].getPrecio() + "\n" + "Fecha de compra: " + coleccionDiscos[i].getFechaCompra()
+					+ "\n________________________________________________________________________________");
 		}
 
 	}
