@@ -46,7 +46,20 @@ class CalculadoraTest {
 		Calculadora calc = new Calculadora(20,0);
 		int resul = calc.divide();
 		fail("fallo, deberia haber lanzado excepción");
-		}catch (ArithmeticException e) 
+		}catch (ArithmeticException e) {
+			//Prueba satisfactoria
+		}
 		
+	}
+	@Test
+	void testDivide2() {
+		Calculadora calc = new Calculadora(20,0);
+		assertNull(calc.divide2());
+	}
+	@Test
+	void testResta2() {
+		Calculadora calc = new Calculadora(10,20);
+		int resul = calc.resta();
+		assertEquals(10, resul);
 	}
 }
