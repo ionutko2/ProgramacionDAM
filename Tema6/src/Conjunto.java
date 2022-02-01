@@ -42,7 +42,7 @@ public class Conjunto {
 			System.out.println("Escriba un número");
 			valor = teclado.nextInt();
 			comprobar = false;
-			for(int j = 0; j < numeros.length && comprobar == true; j++) {
+			for(int j = 0; j < numeros.length && comprobar == !true; j++) {
 				if (valor == numeros[j]) {
 					comprobar = true;
 				}
@@ -63,19 +63,20 @@ public class Conjunto {
 				}else {
 					si = true;
 				}
-			}while(pregunta.equalsIgnoreCase("S") == false && pregunta.equalsIgnoreCase("N") == false);
+			}while(pregunta.equalsIgnoreCase("S") == false && pregunta.equalsIgnoreCase("N") == false && contador < (numeros.length - 1));
 		}
 	}
 	void eliminar() {
 		int pos = 0;
-		System.out.println("elija la posisción que desee eliminar");
+		System.out.println("Elija la posisción que desee eliminar");
 		pos = teclado.nextInt() - 1;
 		for (int i = pos; i < numeros.length - 1; i++) {
 			numeros[i] = numeros[i + 1];
 		}
+		numeros[numeros.length - 1] = 0;
 	}
-	void copiar() {
-		
+	void copiar(int [] numeros) {
+		numeros = Arrays.copyOf(this.numeros, this.numeros.length);
 	}
 	void esMiembro() {
 		boolean comprobar = false;
@@ -112,5 +113,6 @@ public class Conjunto {
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.print(numeros[i] + " ");
 		}
+		System.out.println("");
 	}
 }
