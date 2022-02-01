@@ -44,7 +44,6 @@ INDEX VERSION 1.131+D:\Ionut\programacion\.metadata\.plugins\org.eclipse.jdt.cor
 3440153840.index
 404624089.index
 2690661644.index
-4172714009.index
 687817603.index
 3337691823.index
 173531245.index

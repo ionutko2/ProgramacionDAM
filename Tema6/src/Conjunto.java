@@ -25,7 +25,7 @@ public class Conjunto {
 	int [] numeros;
 	Scanner teclado = new Scanner(System.in);
 	Conjunto() {
-		numeros = new int[10];
+		numeros = new int[100];
 	}
 	void vaciar() {
 		for (int i = 0; i < numeros.length; i++) {
