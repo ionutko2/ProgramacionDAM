@@ -4,6 +4,7 @@ cuenta con mayor saldo. Para ello se sugiere crear un vector de saldos, ordenarl
 creciente y, tomando el último valor que almacene, compararlo con el saldo de los diferentes
 objetos mediante un metodo getSaldo y mostrar por pantalla los que sean iguales que el saldo
 máximo.
+* @author alu
  */
 package cuentas; 
 public class Cuentas {

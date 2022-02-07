@@ -70,4 +70,213 @@
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="340"/>
+		<item key="DIALOG_Y_ORIGIN" value="122"/>
+		<item key="DIALOG_WIDTH" value="616"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Program Files\Java\jdk-17.0.1\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="16"/>
+		<item key="antpath" value="D:\Ionut\programacion\Tema6\javadoc.xml"/>
+		<item key="destdir" value="D:\Ionut\programacion\Tema6\doc"/>
+		<section name="projects">
+			<section name="Pruebas">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Pruebas\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Pruebas\javadoc.xml"/>
+			</section>
+			<section name="Ejerciciopriamide">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejerciciopriamide\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejerciciopriamide\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.12">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.12\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.12\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.2\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.2\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.6">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.6\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.6\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.1\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.1\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.5">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.5\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.5\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.9">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.9\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.9\javadoc.xml"/>
+			</section>
+			<section name="ejer1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\ejer1\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\ejer1\javadoc.xml"/>
+			</section>
+			<section name="Tema6">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Tema6\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Tema6\javadoc.xml"/>
+			</section>
+			<section name="Examen1.4">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Examen1.4\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Examen1.4\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.10">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.10\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.10\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.1\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.1\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.5">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.5\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.5\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.9">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.9\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.9\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.4">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.4\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.4\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.8">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.8\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.8\javadoc.xml"/>
+			</section>
+			<section name="Prueba1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Prueba1\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Prueba1\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.10">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.10\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.10\javadoc.xml"/>
+			</section>
+			<section name="Tema5">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Tema5\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Tema5\javadoc.xml"/>
+			</section>
+			<section name="Examen2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Examen2\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Examen2\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio 3.4">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio 3.4\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio 3.4\javadoc.xml"/>
+			</section>
+			<section name="Examen2.2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Examen2.2\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Examen2.2\javadoc.xml"/>
+			</section>
+			<section name="Tema5_1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Tema5_1\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Tema5_1\javadoc.xml"/>
+			</section>
+			<section name="PruebaEntornos">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\PruebaEntornos\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\PruebaEntornos\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.8">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.8\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.8\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.3">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.3\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.3\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.7">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.7\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.7\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.11">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.11\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.11\javadoc.xml"/>
+			</section>
+			<section name="Examen1_4Corrreccion">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Examen1_4Corrreccion\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Examen1_4Corrreccion\javadoc.xml"/>
+			</section>
+			<section name="Examen1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Examen1\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Examen1\javadoc.xml"/>
+			</section>
+			<section name="Examen1.2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Examen1.2\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Examen1.2\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.3">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.3\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.3\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio3.7">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio3.7\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio3.7\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.2\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.2\javadoc.xml"/>
+			</section>
+			<section name="Ejercicio4.6">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Ionut\programacion\Ejercicio4.6\doc"/>
+				<item key="antpath" value="D:\Ionut\programacion\Ejercicio4.6\javadoc.xml"/>
+			</section>
+		</section>
+	</section>
 </section>

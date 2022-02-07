@@ -17,16 +17,22 @@ Ejercicios Vectores Página 2 de 2
 conjuntos son iguales si tienen los mismos elementos y en el mismo orden
  imprimir: realiza la visualización del conjunto.
  * @author alu
- *
+ * @version 1
  */
 import java.util.Arrays; 
 import java.util.Scanner;
 public class Conjunto {
 	int [] numeros;
 	Scanner teclado = new Scanner(System.in);
+	/**
+	 * Constuctor
+	 */
 	Conjunto() {
 		numeros = new int[100];
 	}
+	/**
+	 * Método para vacir 
+	 */
 	void vaciar() {
 		for (int i = 0; i < numeros.length; i++) {
 			numeros[i] =  0;
